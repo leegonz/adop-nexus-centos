@@ -1,0 +1,33 @@
+{
+        "core" : [
+            {
+                "type": "Tool Links",
+                "components" : [
+                    {
+                        "id": "jenkins",
+                        "title": "jenkins",
+                        "img": "img/jenkins.png",
+                        "description": "Continuous Integration & Automation Server",
+                        "link": "/jenkins/"
+                    },
+                    {
+                        "id": "sonar",
+                        "title": "sonar",
+                        "img": "img/sonar.png",
+                        "description": "Static Code Analysis",
+                        "link": "/sonar/"
+                    },
+                    {
+                        "id": "nexus",
+                        "title": "nexus",
+                        "img": "img/nexus.png",
+                        "description": "Software Repository Manager",
+                        "link": "/nexus/"
+                    }
+                ]
+            }
+        ],
+        "blueprints": [
+            {"url": "bp/demo-release-note.html"}
+        ]
+    }
